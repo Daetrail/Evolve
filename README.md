@@ -22,6 +22,6 @@ Evolve is an all-in-one fitness app.
 
 # Credits 
 
-Go Backend - developed by Matt Dustin Cruz and Samuel Ngo
-Android app - developed by Samuel Ngo
-iOS app - developed by Matt Dustin Cruz
+- Go Backend - developed by Matt Dustin Cruz and Samuel Ngo
+- Android app - developed by Samuel Ngo
+- iOS app - developed by Matt Dustin Cruz
