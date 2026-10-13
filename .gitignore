@@ -1,0 +1,113 @@
+# ==========================================
+# macOS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+*.swp
+
+
+# ==========================================
+# Xcode / SwiftUI
+# ==========================================
+
+# Build artifacts
+DerivedData/
+ios/build/
+ios/.build/
+
+# User-specific Xcode settings
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Compiled outputs
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+
+# ==========================================
+# Android / Gradle
+# ==========================================
+
+# Gradle cache
+.gradle/
+android/.kotlin/
+
+# Android build outputs
+android/**/build/
+
+# Android SDK location
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Android native builds
+.cxx/
+.externalNativeBuild/
+
+# Android signing
+*.jks
+*.keystore
+
+# Android generated files
+captures/
+
+
+# ==========================================
+# Go Backend
+# ==========================================
+
+# Compiled binaries
+backend/bin/
+*.test
+
+# Test coverage
+coverage.out
+coverage.html
+*.coverprofile
+
+# Profiling
+*.prof
+*.pprof
+
+
+# ==========================================
+# SQLite
+# ==========================================
+
+backend/data/*.db
+backend/data/*.db-*
+backend/data/*.sqlite
+backend/data/*.sqlite-*
+backend/data/*.sqlite3
+backend/data/*.sqlite3-*
+
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Local secrets
+Secrets.xcconfig
+*.p8
+*.p12
+*.mobileprovision
+
+
+# ==========================================
+# Logs / Temporary Files
+# ==========================================
+
+*.log
+tmp/
+temp/
